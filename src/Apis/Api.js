@@ -24,7 +24,7 @@ const Api = {
     const subUrl = `users/${id}`;
     return Request.get(subUrl);
   },
-  specificPostsApi: (id) => {
+  getPostDetailsApi: (id) => {
     const subUrl = `posts/${id}`;
     return Request.get(subUrl);
   },

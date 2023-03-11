@@ -58,7 +58,7 @@ export default function PostDetails() {
       });
   }
   function getPostDetails() {
-    Api.getPostDetails(id)
+    Api.getPostDetailsApi(id)
       .then((res) => {
         setAlertData({
           type: "success",
