@@ -1,0 +1,15 @@
+.comment-container {
+  width: 70% !important ;
+  margin: auto;
+  /* background-color: #e8e5e18f; */
+}
+.comments-header {
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 0px;
+  background-color: #e8e5e18f;
+  height: 42px;
+  margin: 0 !important;
+}
