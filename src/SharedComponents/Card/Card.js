@@ -63,10 +63,15 @@ export default function RecipeReviewCard({
         subheader={postUser?.email}
       />
       {postUser && (
-        <div className="phone">
-          <PhoneIcon width={20} className="icon" />
-          <p>{postUser?.phone}</p>
-        </div>
+        <>
+          <div className="phone">
+            <p>{postUser?.company?.name}</p>
+          </div>
+          <div className="phone">
+            <PhoneIcon width={20} className="icon" />
+            <p>{postUser?.phone}</p>
+          </div>
+        </>
       )}
       <CardContent className={bodyclassName}>
         <Typography variant="body2" color="text.secondary">
