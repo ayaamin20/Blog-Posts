@@ -62,6 +62,7 @@ export default function RecipeReviewCard({
         title={posts.title}
         subheader={postUser?.email}
       />
+      //
       {postUser && (
         <>
           <div className="phone">
@@ -78,7 +79,6 @@ export default function RecipeReviewCard({
           {posts.body}
         </Typography>
       </CardContent>
-
       <CardActions disableSpacing className="card-actions">
         {postType == "all-posts" ? (
           <div className="post-footer">
